@@ -1,30 +1,93 @@
-body {
-    background-image: linear-gradient(to right,rgb(231, 231, 38),rgb(246, 227, 167));
+body{
+    background-image: linear-gradient(to right,rgb(250, 250, 195),rgb(255, 196, 0));
+    padding: 50px 100px;
 }
-.banner{
-    max-width: 100%;
-    min-width: 100%;
-    height: 400px;
-    border-radius: 20px;
-}
-.col-md-8{
-    padding-top: 23px;
-}
-.responsive {
-    max-width: 150%;
-    height: auto;
-}
-img {
-    padding: 15px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.displayBox {
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-.scroll-box {
-    overflow-y: auto;
+header{
     height: 500px;
-    float: left;
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./jplayimg.png);
+    border-radius: 20px;
+}
+
+main{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+aside{
+    width: 420px;
+    height: 1000px;
+}
+
+section{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+article{
+    background-color: white;
+    width: 820px;
+    height: 800px;
+    overflow: auto;
+}
+
+.bo{
+    padding: 20px;
+}
+
+.head{
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.623);
+}
+
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.books{
+    height: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+button{
+    padding: 10px;
+    font-size: 20px;
+}
+
+article{
+    font-size: 32px;
+}
+
+.b{
+    padding: 50px;
+    font-size: 20px;
+}
+.h{
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+#game{
+    font-size: 40px;
+    text-decoration: underline;
 }
